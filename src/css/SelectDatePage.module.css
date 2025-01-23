@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 56px;
+  font-family: "Nunito";
+  font-weight: bold;
+  margin-top: 244px;
+  margin-bottom: 20px;
+}
+
+.nextButton {
+  padding: 16px 44px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #ff31c1;
+  font-family: "Nunito";
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.disabled{
+  pointer-events: none;
+  background-color: #8a0060;
+}
+
+.nextButton:hover {
+  background-color: #e62bae;
+}
+
+.datePicker {
+  width: 244px; 
+  margin-top: 24px;
+  background-color: #f0f4f8; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px; 
+  color: black;
+  margin-bottom: 24px;
+}

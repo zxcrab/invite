@@ -1,0 +1,11 @@
+[
+    { "id": 1, "name": "Lethal Company", "image": "/images/game1.jpg" },
+    { "id": 2, "name": "Minecraft", "image": "/images/game2.jpg" },
+    { "id": 3, "name": "Valheim", "image": "/images/game3.jpg" },
+    { "id": 4, "name": "Unrailed", "image": "/images/game4.jpg" },
+    { "id": 5, "name": "Bokura", "image": "/images/game5.jpg" },
+    { "id": 6, "name": "DS Together", "image": "/images/game6.jpg" },
+    { "id": 7, "name": "WEBFISHING", "image": "/images/game7.jpg" },
+    { "id": 6, "name": "Шось iнше", "image": "/images/game8.jpg" }
+  ]
+  

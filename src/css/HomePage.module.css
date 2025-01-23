@@ -1,0 +1,35 @@
+body {
+  display: block;
+  background-color: #f8c8dc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Nunito";
+  font-size: 56px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 48px;
+  margin-top: 244px;
+}
+
+.startButton {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #ff31c1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.startButton:hover {
+  background-color: #e62bae;
+}
