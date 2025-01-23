@@ -34,6 +34,7 @@ const SelectDatePage = ({ onDateSelect }) => {
         dateFormat="MMMM d, yyyy h:mm aa"
         className={styles.datePicker}
         minDate={new Date()}
+        onFocus={(e) => e.target.blur()}
       />
       <button
         className={`${styles.nextButton} ${!selectedDate ? styles.disabled : ''}`}

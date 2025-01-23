@@ -8,7 +8,7 @@ const FinalPage = ({ date, time, game }) => {
   return (
     <div className={styles.container}>
       <div className={styles.text}>Буду чекати!</div>
-      <p className={styles.p}>твоя душа в зарезервована на цей час.</p>
+      <p className={styles.p}>твоя душа зарезервована на цей час.</p>
       <div>
         <img
           className={styles.gif}

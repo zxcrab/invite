@@ -7,14 +7,14 @@
   
   .text {
     font-family: "Nunito";
-    font-size: 88px;
+    font-size: 64px;
     font-weight: bold;
-    margin-top: 244px;
+    margin-top: 164px;
     margin-bottom: 0px;
   }
   
   .details {
-    font-size: 44px;
+    font-size: 32px;
     margin-bottom: 20px;
   }
   
@@ -36,4 +36,15 @@
   .gif{
     width: 120px;
     height: 120px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .text {
+      margin-top: 244px;
+      font-size: 88px;
+    }
+    .details {
+      font-size: 44px;
+      margin-bottom: 20px;
+    }
   }

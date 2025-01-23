@@ -6,10 +6,10 @@
 }
 
 .text {
-  font-size: 56px;
+  font-size: 44px;
   font-family: "Nunito";
   font-weight: bold;
-  margin-top: 244px;
+  margin-top: 164px;
   margin-bottom: 20px;
 }
 
@@ -44,4 +44,12 @@
   font-size: 16px; 
   color: black;
   margin-bottom: 24px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .text {
+    margin-top: 244px;
+    font-size: 56px;
+  }
 }
