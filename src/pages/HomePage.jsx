@@ -5,7 +5,7 @@ const HomePage = ({ onStart }) => {
     <div className={styles.container}>
       <div className={styles.text}>Запрошую пограти!</div>
       <img
-          src="../../public/images/cute.gif"
+          src="https://media.tenor.com/bXIzx6izXTQAAAAj/cute.gif"
           alt="Cute animated illustration"
         />
       <button className={styles.startButton} onClick={onStart}>Вибрати дату та час</button>

@@ -23,7 +23,7 @@ const SelectDatePage = ({ onDateSelect }) => {
     <div className={styles.container}>
       <div className={styles.text}>Вибрати дату та час</div>
       <img
-          src="../../public/images/cat-wait.gif"
+          src="https://media1.tenor.com/m/h7wPjGdxX1wAAAAd/cat-wait-waiting-cat.gif"
           alt="Cute animated illustration"
         />
       <DatePicker

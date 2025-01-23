@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from '../css/SelectGamePage.module.css';
-import games from '../games.json'; // Импортируем игры
+import games from '../games.json';
 
 const SelectGamePage = ({ onGameSelect }) => {
   const [selectedGame, setSelectedGame] = useState(null);

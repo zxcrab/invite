@@ -12,17 +12,17 @@ const FinalPage = ({ date, time, game }) => {
       <div>
         <img
           className={styles.gif}
-          src="../../public/images/cat.gif"
+          src="https://media.tenor.com/5nSKlBlwdkIAAAAi/cat.gif"
           alt="Cute animated illustration"
         />
         <img
           className={styles.gif}
-          src="../../public/images/cat.gif"
+          src="https://media.tenor.com/5nSKlBlwdkIAAAAi/cat.gif"
           alt="Cute animated illustration"
         />
         <img
           className={styles.gif}
-          src="../../public/images/cat.gif"
+          src="https://media.tenor.com/5nSKlBlwdkIAAAAi/cat.gif"
           alt="Cute animated illustration"
         />
       </div>
